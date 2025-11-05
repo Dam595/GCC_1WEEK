@@ -21,7 +21,7 @@ public class TrajectoryCalculator
 
     public List<Vector3> CalculatePoints(Vector2 startPos, Vector2 startVel)
     {
-        List<Vector3> points = new List<Vector3> { startPos };
+        List<Vector3> points = new List<Vector3>(50) { startPos };
         Vector2 currentPos = startPos;
         Vector2 currentVel = startVel;
 

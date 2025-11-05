@@ -16,8 +16,6 @@ public class BallTrajectoryRenderer : MonoBehaviour
     private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
-       
-
         trajectoryCalculator = new TrajectoryCalculator(maxBounces: 2, stepTime: 0.1f, maxDistance: 3f, wallMask: wallMask);
     }
 

@@ -7,7 +7,7 @@ public class BallController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float maxPower = 10f;
-    [SerializeField] private float power = 2f;
+    [SerializeField] private float power = 4f;
     [SerializeField] private float maxSpeed = 4f;
 
     private bool isDragging = false;
