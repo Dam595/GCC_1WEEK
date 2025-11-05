@@ -16,12 +16,7 @@ public class BallTrajectoryRenderer : MonoBehaviour
     private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        lineRenderer.startWidth = 0.05f;
-        lineRenderer.endWidth = 0.05f;
-        lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
-        lineRenderer.startColor = Color.yellow;
-        lineRenderer.endColor = Color.red;
-        lineRenderer.positionCount = 0;
+       
 
         trajectoryCalculator = new TrajectoryCalculator(maxBounces: 2, stepTime: 0.1f, maxDistance: 3f, wallMask: wallMask);
     }
