@@ -26,15 +26,19 @@ public class LevelEditor : MonoBehaviour
     [Header("Save/Load settings")]
     [SerializeField] private int levelNumber = 1;
     [SerializeField] private string saveFolder = "StreamingAssets/Levels";
-
+    /// <summary>
+    /// Em biết cái Save kiểu for ntn nó rất tốn tài nguyên =))), nma kệ đy tại mình chờ mà, lúc load nó nhanh mà
+    /// </summary>
     [ContextMenu("Save Level To JSON")]
     public void SaveLevel()
     {
         LevelData data = new LevelData();
         data.levelNumber = levelNumber;
+        // lưu vị trí ball và hole
         if (ball != null) data.ball = Vector2Data.FromVector2(ball.position);
         if (hole != null) data.hole = Vector2Data.FromVector2(hole.position);
 
+        // duyệt qua các Tilemap (Water, Ground, Wall)
         foreach (var entry in tilemaps)
         {
             if (entry == null || entry.tilemap == null || string.IsNullOrEmpty(entry.id)) continue;
@@ -42,11 +46,12 @@ public class LevelEditor : MonoBehaviour
             Tilemap tm = entry.tilemap;
             BoundsInt bounds = tm.cellBounds;
 
+            //Trong từng Tilemap, duyệt qua tất cả các vị trí trong bounds (các tile nhỏ hơn)
             foreach (var pos in bounds.allPositionsWithin)
             {
                 TileBase tile = tm.GetTile(pos);
                 if (tile == null) continue;
-
+                // Lấy id của tile từ TileRegistry
                 string tileId = tileRegistry != null ? tileRegistry.GetId(tile) : "unknown";
                 TileData t = new TileData
                 {

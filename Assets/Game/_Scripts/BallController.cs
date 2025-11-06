@@ -11,7 +11,6 @@ public class BallController : MonoBehaviour
     [SerializeField] private float maxSpeed = 4f;
 
     private bool isDragging = false;
-    private bool isInHole = false;
     private Camera mainCamera;
     private Vector2 mousePosition;
     private float distance;
@@ -69,14 +68,14 @@ public class BallController : MonoBehaviour
             rb.velocity = rb.velocity.normalized * maxSpeed;
 
         if (rb.velocity.magnitude < 0.05f)
-            rb.velocity = Vector2.zero;
+            Stop();
     }
 
     private void DragRelease(Vector2 pos)
     {
         float distance = Vector2.Distance(transform.position, pos);
 
-        if (distance < 1f)
+        if (distance < 0.2f)
         {
             return;
         }
@@ -84,5 +83,12 @@ public class BallController : MonoBehaviour
         Vector2 direction = (Vector2)transform.position - pos;
         Vector2 force = direction.normalized * Mathf.Min(distance * power, maxPower);
         rb.AddForce(force, ForceMode2D.Impulse);
+    }
+
+    public float CurrentSpeed => rb.velocity.magnitude;
+
+    public void Stop()
+    {
+        rb.velocity = Vector2.zero;
     }
 }
