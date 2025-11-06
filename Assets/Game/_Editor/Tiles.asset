@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c03ac7cf5274b448fef2378a67c79b, type: 3}
+  m_Name: Tiles
+  m_EditorClassIdentifier: 
+  tiles:
+  - id: Ground
+    tile: {fileID: 11400000, guid: c47b8ed24f172f744abaf4c80c6507af, type: 2}
+  - id: Ground_Shaded
+    tile: {fileID: 11400000, guid: 9e448fcc11f978544887f4158d930193, type: 2}
+  - id: Wall_V_Up
+    tile: {fileID: 11400000, guid: 062cda743d5012743b530722a94e8012, type: 2}
+  - id: Wall_Left_Up
+    tile: {fileID: 11400000, guid: 82fddc5e3761b324780cbb039e65494a, type: 2}
+  - id: Wall_Right_Up
+    tile: {fileID: 11400000, guid: b645a40641ccebe43895f4253faecce0, type: 2}
+  - id: Wall_Full_Normal
+    tile: {fileID: 11400000, guid: 4bc1404a06d603349b6a7c0db17d111a, type: 2}
+  - id: Wall_Full_Shaded
+    tile: {fileID: 11400000, guid: c9d4713dcec7657428eaf7bbc0ac2362, type: 2}
+  - id: Wall_V_Mid
+    tile: {fileID: 11400000, guid: beb45a8093249ab46a880a3339cee40f, type: 2}
+  - id: Wall_Left_Down
+    tile: {fileID: 11400000, guid: 026c8d63145bd8349ac622e07812eb3e, type: 2}
+  - id: Wall_Right_Down
+    tile: {fileID: 11400000, guid: fb598c7676345cf4d956c8558a15c83b, type: 2}
+  - id: Wall_4_1
+    tile: {fileID: 11400000, guid: d1ab4a5cd1c231347ab1a6e17caee985, type: 2}
+  - id: Wall_4_2
+    tile: {fileID: 11400000, guid: 6de125bdc75e5c84db91a0c7322780b1, type: 2}
+  - id: Wall_V_Down
+    tile: {fileID: 11400000, guid: 3002824ac0f5a6c4fa2e1b1aa2db1f72, type: 2}
+  - id: Wall_Left_Up_Shaded
+    tile: {fileID: 11400000, guid: 14caa40fe1b7ae448b1d8117a5ba3655, type: 2}
+  - id: Wall_Right_Up_Shaded
+    tile: {fileID: 11400000, guid: c0d0b6a596264124fb47832510193f00, type: 2}
+  - id: Wall_Small
+    tile: {fileID: 11400000, guid: 0c457974cce788b40a2bbc01b6d34bb6, type: 2}
+  - id: Wall_H_Left
+    tile: {fileID: 11400000, guid: 301440e802b564b4094bc245e86a0c39, type: 2}
+  - id: Wall_H_Mid
+    tile: {fileID: 11400000, guid: 4b71a76c33d32fe4996aed12f043fe94, type: 2}
+  - id: Wall_H_Left
+    tile: {fileID: 11400000, guid: 67c808707c4659d45bb8edbd1fd195a3, type: 2}
