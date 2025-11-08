@@ -9,6 +9,8 @@ public class BallController : MonoBehaviour
     [SerializeField] private float maxPower = 10f;
     [SerializeField] private float power = 4f;
     [SerializeField] private float maxSpeed = 4f;
+    [SerializeField] private StrokeUI strokeUI;
+
 
     private bool isDragging = false;
     private Camera mainCamera;
@@ -83,6 +85,9 @@ public class BallController : MonoBehaviour
         Vector2 direction = (Vector2)transform.position - pos;
         Vector2 force = direction.normalized * Mathf.Min(distance * power, maxPower);
         rb.AddForce(force, ForceMode2D.Impulse);
+
+        if (strokeUI != null)
+            strokeUI.AddStroke();
     }
 
     public float CurrentSpeed => rb.velocity.magnitude;

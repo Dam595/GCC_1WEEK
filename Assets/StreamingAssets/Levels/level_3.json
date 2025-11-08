@@ -1,0 +1,674 @@
+{
+    "levelNumber": 3,
+    "ball": {
+        "x": -3.430000066757202,
+        "y": -0.36000001430511477
+    },
+    "hole": {
+        "x": 4.130000114440918,
+        "y": -1.2400000095367432
+    },
+    "tiles": [
+        {
+            "x": -6,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Water"
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "tileId": "Ground",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "tileId": "Ground_Shaded",
+            "tilemapId": "Ground"
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "tileId": "Wall_Left_Down",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "tileId": "Wall_4_2",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "tileId": "Wall_H_Left",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "tileId": "Wall_Small",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "tileId": "Wall_Left_Down",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "tileId": "Wall_H_Mid",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "tileId": "Wall_Right_Down",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "tileId": "Wall_Small",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "tileId": "Wall_V_Down",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "tileId": "Wall_Small",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "tileId": "Wall_Left_Up_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "tileId": "Wall_H_Mid",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "tileId": "Wall_Right_Up_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "tileId": "Wall_Small",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "tileId": "Wall_Full_Shaded",
+            "tilemapId": "Wall"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "tileId": "Wall_Full_Normal",
+            "tilemapId": "Wall"
+        }
+    ],
+    "obstacles": []
+}

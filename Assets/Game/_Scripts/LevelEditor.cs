@@ -176,4 +176,11 @@ public class LevelEditor : MonoBehaviour
 
         Debug.Log($"[LevelEditor] Loaded level {data.levelNumber} from {filePath}");
     }
+    public int LevelNumber => levelNumber;
+
+    public void SetLevelNumber(int newLevel)
+    {
+        levelNumber = newLevel;
+    }
+
 }
